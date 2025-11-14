@@ -123,23 +123,28 @@ Use the "Write Contract" tab to:
 
 ## API Access
 
-CitreaScan provides API endpoints for developers:
+CitreaScan provides comprehensive API endpoints for developers:
 
 ### REST API
-Access blockchain data programmatically:
-```
-https://citreascan.com/api
-```
+Access blockchain data programmatically through the Blockscout API.
+
+**API Documentation**: [https://citreascan.com/api-docs](https://citreascan.com/api-docs)
+
+**Base URL**: `https://citreascan.com/api/v2`
 
 ### Common API Endpoints
-- Account balance and transaction list
-- Contract ABI and source code
-- Block and transaction details
-- Token transfer events
-- Gas price oracle
+- `/addresses/{address}` - Account balance and transaction list
+- `/smart-contracts/{address}` - Contract ABI and source code
+- `/blocks` and `/transactions` - Block and transaction details
+- `/tokens/{address}/transfers` - Token transfer events
+- `/stats` - Network statistics and gas price oracle
 
 ### API Documentation
-Visit the API documentation section for detailed endpoint information and examples.
+Visit [citreascan.com/api-docs](https://citreascan.com/api-docs) for:
+- Complete endpoint reference
+- Request/response examples
+- Authentication details
+- Rate limiting information
 
 ## Advanced Features
 
