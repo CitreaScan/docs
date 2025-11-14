@@ -32,12 +32,12 @@ The CitreaScan logo is available in two variants:
 
 **Markdown:**
 ```markdown
-![CitreaScan Logo](./01_Logo/Citreascan_Logo_black.svg)
+![CitreaScan Logo](https://docs.citreascan.com/media_kit/01_Logo/Citreascan_Logo_black.svg)
 ```
 
 **HTML:**
 ```html
-<img src="./01_Logo/Citreascan_Logo_white.svg" alt="CitreaScan Logo" width="200">
+<img src="https://docs.citreascan.com/media_kit/01_Logo/Citreascan_Logo_white.svg" alt="CitreaScan Logo" width="200">
 ```
 
 ---
@@ -117,26 +117,26 @@ CitreaScan's primary brand colors:
 
 ### Direct Asset Links
 
-Use these links to directly access assets from the GitHub repository:
+Use these links to directly access assets from the documentation website:
 
 **Logo - Black:**
 ```
-https://raw.githubusercontent.com/CitreaScan/docs/main/media_kit/01_Logo/Citreascan_Logo_black.svg
+https://docs.citreascan.com/media_kit/01_Logo/Citreascan_Logo_black.svg
 ```
 
 **Logo - White:**
 ```
-https://raw.githubusercontent.com/CitreaScan/docs/main/media_kit/01_Logo/Citreascan_Logo_white.svg
+https://docs.citreascan.com/media_kit/01_Logo/Citreascan_Logo_white.svg
 ```
 
 **OG Image:**
 ```
-https://raw.githubusercontent.com/CitreaScan/docs/main/media_kit/02_Website/Citreascan_webpreview_image.png
+https://docs.citreascan.com/media_kit/02_Website/Citreascan_webpreview_image.png
 ```
 
 **Favicon (256px):**
 ```
-https://raw.githubusercontent.com/CitreaScan/docs/main/media_kit/02_Website/Favicon/favicon_256x256.png
+https://docs.citreascan.com/media_kit/02_Website/Favicon/favicon_256x256.png
 ```
 
 ---
