@@ -1,0 +1,82 @@
+// Custom styles for CitreaScan Documentation
+// Override VuePress default styles to match citreascan.com branding
+
+// Links
+a
+  color: #F6741D
+  &:hover
+    color: #F07823
+    text-decoration: underline
+
+// Navbar
+.navbar
+  border-bottom: 1px solid #eaecef
+  .site-name
+    display: none  // Hide site name next to logo
+  .links
+    background-color: #ffffff
+
+// Home page
+.home
+  .hero
+    .action-button
+      background-color: #F6741D
+      border-color: #F6741D
+      color: #ffffff
+      &:hover
+        background-color: #F07823
+        border-color: #F07823
+  .feature
+    h2
+      color: #2c3e50
+      border-bottom: none
+
+// Sidebar
+.sidebar
+  .sidebar-link
+    &.active
+      color: #F6741D
+      border-left-color: #F6741D
+    &:hover
+      color: #F6741D
+
+// Code blocks
+div[class*="language-"]
+  .highlight-lines .highlighted
+    background-color: rgba(246, 116, 29, 0.1)
+
+// Badge
+.badge
+  &.tip
+    background-color: #F6741D
+  &.warning
+    background-color: #F07823
+
+// Custom page elements
+.custom-block
+  &.tip
+    border-color: #F6741D
+    background-color: rgba(246, 116, 29, 0.1)
+    .custom-block-title
+      color: #F6741D
+  &.warning
+    border-color: #F07823
+    background-color: rgba(240, 120, 35, 0.1)
+
+// Table of contents
+.table-of-contents
+  .badge
+    background-color: #F6741D
+
+// Edit link
+.page-edit
+  .edit-link a
+    color: #F6741D
+    &:hover
+      color: #F07823
+
+// Pagination
+.page-nav
+  .next a, .prev a
+    &:hover
+      color: #F6741D
