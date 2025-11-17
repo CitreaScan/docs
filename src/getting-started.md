@@ -137,7 +137,7 @@ https://rpc.testnet.citreascan.com
 3. Enter:
    - **Network Name**: Citrea Testnet
    - **RPC URL**: `https://rpc.testnet.citreascan.com`
-   - **Chain ID**: [TBD]
+   - **Chain ID**: 5115
    - **Currency Symbol**: cBTC
    - **Block Explorer URL**: `https://testnet.citreascan.com`
 

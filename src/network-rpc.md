@@ -10,7 +10,7 @@ Citrea is Bitcoin's first ZK Rollup - a layer 2 blockchain that brings EVM compa
 | Property | Value |
 |----------|-------|
 | **Network Name** | Citrea Testnet |
-| **Chain ID** | TBD |
+| **Chain ID** | 5115 |
 | **Currency Symbol** | cBTC |
 | **Block Explorer** | https://testnet.citreascan.com |
 
@@ -41,7 +41,7 @@ To add Citrea Testnet to MetaMask:
 ```
 Network Name: Citrea Testnet
 RPC URL: https://rpc.testnet.citreascan.com
-Chain ID: [TBD]
+Chain ID: 5115
 Currency Symbol: cBTC
 Block Explorer URL: https://testnet.citreascan.com
 ```
@@ -103,7 +103,7 @@ module.exports = {
   networks: {
     citreaTestnet: {
       url: "https://rpc.testnet.citreascan.com",
-      chainId: [TBD],
+      chainId: 5115,
       accounts: [process.env.PRIVATE_KEY] // Use environment variables for private keys
     }
   }
