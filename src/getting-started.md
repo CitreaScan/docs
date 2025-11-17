@@ -121,6 +121,28 @@ Use the "Write Contract" tab to:
 - Execute state-changing functions
 - Send transactions to the contract
 
+## Network Connection & RPC
+
+### RPC Endpoint
+
+To connect your wallet or dApp to Citrea Testnet, use the following RPC endpoint:
+
+```
+https://rpc.testnet.citreascan.com
+```
+
+**Quick Setup for MetaMask:**
+1. Open MetaMask and click the network dropdown
+2. Select "Add Network Manually"
+3. Enter:
+   - **Network Name**: Citrea Testnet
+   - **RPC URL**: `https://rpc.testnet.citreascan.com`
+   - **Chain ID**: [TBD]
+   - **Currency Symbol**: cBTC
+   - **Block Explorer URL**: `https://testnet.citreascan.com`
+
+For detailed RPC documentation, code examples, and integration guides, see the [Network & RPC](/network-rpc) page.
+
 ## API Access
 
 CitreaScan provides comprehensive API endpoints for developers:
