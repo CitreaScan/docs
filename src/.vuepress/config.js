@@ -30,6 +30,7 @@ module.exports = {
     sidebar: [
       { title: "Overview", path: "/overview" },
       { title: "Getting Started", path: "/getting-started" },
+      { title: "Network & RPC", path: "/network-rpc" },
       { title: "FAQ", path: "/faq" },
     ],
   },
