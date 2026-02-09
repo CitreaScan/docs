@@ -33,6 +33,8 @@ module.exports = {
       { title: "Network & RPC", path: "/network-rpc" },
       { title: "FAQ", path: "/faq" },
       { title: "Imprint", path: "/imprint" },
+      { title: "Disclaimer", path: "/disclaimer" },
+      { title: "Privacy Policy", path: "/privacy-policy" },
     ],
   },
 
