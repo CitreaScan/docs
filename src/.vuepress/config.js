@@ -32,6 +32,7 @@ module.exports = {
       { title: "Getting Started", path: "/getting-started" },
       { title: "Network & RPC", path: "/network-rpc" },
       { title: "FAQ", path: "/faq" },
+      { title: "Imprint", path: "/imprint" },
     ],
   },
 
