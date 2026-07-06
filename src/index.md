@@ -16,7 +16,7 @@ footer: MIT Licensed
 
 # Welcome to CitreaScan Documentation
 
-CitreaScan is the dedicated blockchain explorer for **Citrea Testnet** - Bitcoin's first ZK Rollup. Explore transactions, blocks, addresses, and smart contracts with a powerful, user-friendly interface.
+CitreaScan is the dedicated blockchain explorer for **Citrea** - Bitcoin's first ZK Rollup. Explore transactions, blocks, addresses, and smart contracts with a powerful, user-friendly interface.
 
 ## What is Citrea?
 

@@ -4,7 +4,7 @@
 
 ## Accessing CitreaScan
 
-Visit [https://citreascan.com](https://citreascan.com) to access the CitreaScan blockchain explorer for Citrea Testnet.
+Visit [https://citreascan.com](https://citreascan.com) to access the CitreaScan blockchain explorer for Citrea.
 
 ## Understanding the Homepage
 
@@ -125,21 +125,21 @@ Use the "Write Contract" tab to:
 
 ### RPC Endpoint
 
-To connect your wallet or dApp to Citrea Testnet, use the following RPC endpoint:
+To connect your wallet or dApp to Citrea, use the following RPC endpoint:
 
 ```
-https://rpc.testnet.citreascan.com
+https://rpc.citreascan.com
 ```
 
 **Quick Setup for MetaMask:**
 1. Open MetaMask and click the network dropdown
 2. Select "Add Network Manually"
 3. Enter:
-   - **Network Name**: Citrea Testnet
-   - **RPC URL**: `https://rpc.testnet.citreascan.com`
-   - **Chain ID**: 5115
+   - **Network Name**: Citrea
+   - **RPC URL**: `https://rpc.citreascan.com`
+   - **Chain ID**: 4114
    - **Currency Symbol**: cBTC
-   - **Block Explorer URL**: `https://testnet.citreascan.com`
+   - **Block Explorer URL**: `https://citreascan.com`
 
 For detailed RPC documentation, code examples, and integration guides, see the [Network & RPC](/network-rpc) page.
 
