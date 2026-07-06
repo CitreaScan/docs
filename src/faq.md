@@ -6,7 +6,7 @@
 Citrea is Bitcoin's first ZK Rollup - a layer 2 blockchain that settles on Bitcoin. It uses zero-knowledge proofs to process transactions off-chain and verify them on Bitcoin, combining Bitcoin's security with Ethereum's smart contract capabilities through full EVM compatibility.
 
 ### What is CitreaScan?
-CitreaScan is the dedicated blockchain explorer for Citrea Testnet, powered by Blockscout. It provides a comprehensive interface for exploring transactions, blocks, addresses, and smart contracts on the Citrea network.
+CitreaScan is the dedicated blockchain explorer for Citrea, powered by Blockscout. It provides a comprehensive interface for exploring transactions, blocks, addresses, and smart contracts on the Citrea network.
 
 ### Is CitreaScan free to use?
 Yes, CitreaScan is completely free to use. Anyone can access the explorer to view blockchain data, search transactions, and interact with smart contracts.
@@ -45,13 +45,6 @@ Citrea is unique because it:
 - Provides **full EVM compatibility** on Bitcoin
 - Is the first **zkEVM rollup** on Bitcoin
 
-### Is Citrea Testnet safe to use?
-Citrea Testnet is for testing purposes only. Do not use real assets or production applications on testnet. Use it to:
-- Test smart contracts
-- Develop and debug dApps
-- Experiment with transactions
-- Learn about the network
-
 ### What is a zkEVM?
 A zkEVM (Zero-Knowledge Ethereum Virtual Machine) is a virtual machine that executes smart contracts while generating zero-knowledge proofs. This allows Citrea to verify transactions on Bitcoin without revealing all transaction details, combining privacy with security.
 
@@ -81,7 +74,7 @@ CitreaScan supports standard Web3 wallets:
 ## Technical Questions
 
 ### How often is the data updated?
-CitreaScan updates in real-time as new blocks are added to the Citrea blockchain. Block times on Citrea Testnet are typically a few seconds.
+CitreaScan updates in real-time as new blocks are added to the Citrea blockchain. Block times on Citrea are typically a few seconds.
 
 ### Can I use CitreaScan to send transactions?
 No, CitreaScan is a read-only explorer. To send transactions:
@@ -130,7 +123,7 @@ Yes, for ERC-721 and ERC-1155 tokens, CitreaScan displays:
 ### Why can't I find my transaction?
 Possible reasons:
 - Transaction is still pending (wait a few moments)
-- Wrong network (ensure you're on Citrea Testnet)
+- Wrong network (ensure you're on Citrea)
 - Incorrect transaction hash (verify the hash)
 - Transaction failed to broadcast (check your wallet)
 
