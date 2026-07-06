@@ -1,27 +1,27 @@
 # Network & RPC Information
 
-**Connect to Citrea Testnet**
+**Connect to Citrea**
 
 ## Network Details
 
-### Citrea Testnet
+### Citrea
 Citrea is Bitcoin's first ZK Rollup - a layer 2 blockchain that brings EVM compatibility to Bitcoin through zero-knowledge proofs.
 
 | Property | Value |
 |----------|-------|
-| **Network Name** | Citrea Testnet |
-| **Chain ID** | 5115 |
+| **Network Name** | Citrea |
+| **Chain ID** | 4114 |
 | **Currency Symbol** | cBTC |
-| **Block Explorer** | https://testnet.citreascan.com |
+| **Block Explorer** | https://citreascan.com |
 
 ## RPC Endpoints
 
 ### Public RPC Endpoint
 
-The following RPC endpoint is available for connecting to Citrea Testnet:
+The following RPC endpoint is available for connecting to Citrea:
 
 ```
-https://rpc.testnet.citreascan.com
+https://rpc.citreascan.com
 ```
 
 **Capabilities:**
@@ -32,18 +32,18 @@ https://rpc.testnet.citreascan.com
 
 ### Using with MetaMask
 
-To add Citrea Testnet to MetaMask:
+To add Citrea to MetaMask:
 
 1. Open MetaMask and click the network dropdown
 2. Select "Add Network" or "Add Network Manually"
 3. Enter the following details:
 
 ```
-Network Name: Citrea Testnet
-RPC URL: https://rpc.testnet.citreascan.com
-Chain ID: 5115
+Network Name: Citrea
+RPC URL: https://rpc.citreascan.com
+Chain ID: 4114
 Currency Symbol: cBTC
-Block Explorer URL: https://testnet.citreascan.com
+Block Explorer URL: https://citreascan.com
 ```
 
 4. Click "Save" to add the network
@@ -54,7 +54,7 @@ Block Explorer URL: https://testnet.citreascan.com
 
 ```javascript
 const Web3 = require('web3');
-const web3 = new Web3('https://rpc.testnet.citreascan.com');
+const web3 = new Web3('https://rpc.citreascan.com');
 
 // Get latest block number
 const blockNumber = await web3.eth.getBlockNumber();
@@ -69,7 +69,7 @@ console.log('Balance:', web3.utils.fromWei(balance, 'ether'), 'cBTC');
 
 ```javascript
 const { ethers } = require('ethers');
-const provider = new ethers.JsonRpcProvider('https://rpc.testnet.citreascan.com');
+const provider = new ethers.JsonRpcProvider('https://rpc.citreascan.com');
 
 // Get latest block number
 const blockNumber = await provider.getBlockNumber();
@@ -86,7 +86,7 @@ console.log('Balance:', ethers.formatEther(balance), 'cBTC');
 import { createPublicClient, http } from 'viem';
 
 const client = createPublicClient({
-  transport: http('https://rpc.testnet.citreascan.com'),
+  transport: http('https://rpc.citreascan.com'),
 });
 
 // Get latest block number
@@ -96,14 +96,14 @@ console.log('Current block:', blockNumber);
 
 ### Using with Hardhat
 
-Add Citrea Testnet to your `hardhat.config.js`:
+Add Citrea to your `hardhat.config.js`:
 
 ```javascript
 module.exports = {
   networks: {
-    citreaTestnet: {
-      url: "https://rpc.testnet.citreascan.com",
-      chainId: 5115,
+    citrea: {
+      url: "https://rpc.citreascan.com",
+      chainId: 4114,
       accounts: [process.env.PRIVATE_KEY] // Use environment variables for private keys
     }
   }
@@ -112,7 +112,7 @@ module.exports = {
 
 Deploy contracts:
 ```bash
-npx hardhat run scripts/deploy.js --network citreaTestnet
+npx hardhat run scripts/deploy.js --network citrea
 ```
 
 ### Using with Foundry
@@ -121,17 +121,17 @@ Add to your `foundry.toml`:
 
 ```toml
 [rpc_endpoints]
-citrea_testnet = "https://rpc.testnet.citreascan.com"
+citrea = "https://rpc.citreascan.com"
 ```
 
 Deploy contracts:
 ```bash
-forge create --rpc-url citrea_testnet --private-key $PRIVATE_KEY src/MyContract.sol:MyContract
+forge create --rpc-url citrea --private-key $PRIVATE_KEY src/MyContract.sol:MyContract
 ```
 
 ## Supported RPC Methods
 
-Citrea Testnet supports standard Ethereum JSON-RPC methods:
+Citrea supports standard Ethereum JSON-RPC methods:
 
 ### Block Methods
 - `eth_blockNumber` - Returns the current block number
@@ -198,7 +198,7 @@ For production applications with higher requirements, consider running your own 
 Test your RPC connection using curl:
 
 ```bash
-curl -X POST https://rpc.testnet.citreascan.com \
+curl -X POST https://rpc.citreascan.com \
   -H "Content-Type: application/json" \
   -d '{
     "jsonrpc": "2.0",
@@ -216,15 +216,6 @@ Expected response:
   "result": "0x116ff90"
 }
 ```
-
-## Getting Testnet Tokens
-
-To interact with Citrea Testnet, you'll need testnet cBTC:
-
-1. Visit the [Citrea Faucet](https://faucet.citrea.xyz)
-2. Connect your wallet
-3. Request testnet tokens
-4. Tokens will be sent to your address
 
 ## Troubleshooting
 
@@ -261,7 +252,7 @@ To interact with Citrea Testnet, you'll need testnet cBTC:
 ## Additional Resources
 
 - [Citrea Documentation](https://docs.citrea.xyz) - Official Citrea network documentation
-- [CitreaScan Explorer](https://testnet.citreascan.com) - Blockchain explorer
+- [CitreaScan Explorer](https://citreascan.com) - Blockchain explorer
 - [CitreaScan API](/getting-started#api-access) - Explorer API documentation
 - [Ethereum JSON-RPC Specification](https://ethereum.org/en/developers/docs/apis/json-rpc/) - Standard RPC methods
 

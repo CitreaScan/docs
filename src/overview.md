@@ -4,7 +4,7 @@
 
 ## What is CitreaScan?
 
-CitreaScan is the dedicated blockchain explorer for the Citrea Testnet, powered by Blockscout - the leading open-source blockchain explorer. It provides a comprehensive and user-friendly interface for exploring and analyzing the Citrea blockchain.
+CitreaScan is the dedicated blockchain explorer for Citrea, powered by Blockscout - the leading open-source blockchain explorer. It provides a comprehensive and user-friendly interface for exploring and analyzing the Citrea blockchain.
 
 ## What is Citrea?
 
